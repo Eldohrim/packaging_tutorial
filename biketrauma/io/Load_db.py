@@ -11,3 +11,4 @@ class Load_db:
   def save_as_df():
     df_bikes = pd.read_csv(path_target, na_values="", low_memory=False, converters={'data': str, 'heure': str})
     return df_bikes
+
